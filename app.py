@@ -205,12 +205,9 @@ def video():
 
 @app.route('/stop')
 def stop():
-    global studentInfo
-    global datetimeObject
-    global imgStudent
-    global studentInfo_set
-    if studentInfo_set == False:
-        return render_template('atd.html')
+    
+    # if studentInfo_set == False:
+        # return render_template('atd.html')
 
     name = studentInfo['name']
     time = datetimeObject

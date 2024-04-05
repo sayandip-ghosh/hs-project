@@ -42,6 +42,17 @@ data = {
             "standing": "G",
             "year": 4,
             "last_attendance_time": "2022-12-11 00:54:34"
+        },
+        "664616":
+        {
+            "name": "Sayandip Ghosh",
+            "roll":3648,
+            "major": "Physics",
+            "starting_year": 2020,
+            "total_attendance": 7,
+            "standing": "G",
+            "year": 4,
+            "last_attendance_time": "2023-12-11 00:54:34"
         }
 }
 
