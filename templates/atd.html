@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{url_for('static',filename='css/atd.css')}}">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Whisper&display=swap" rel="stylesheet">
     <title>Attendance System</title>
 </head>
 <body>
-    <h1><span>FACIAL</span> <span2>ATTENDANCE</span2><span> SYSTEM</span> </h1>
+    <h1><span>FACE</span> <span2>ATTENDANCE</span2><span> SYSTEM</span> </h1>
     <div class="wrapper">
         <div class="container">
             <input type="radio" name="slide" id="c1" checked>
-            <label for="c1" class="card">
+            <label for="c1" class="card lab1">
                 <div class="card-content">
                     <div class="table-container">
-           
+                        <div>
                         <button onclick="window.location.href='/start'" >TAKE  ATTENDANCE</button>
                         <img src="abstract-blue-circle-black-background-technology_1142-12714.avif" alt="">
                         <table id="attendanceTable">
@@ -46,8 +50,9 @@
                         </table>
                     </div>
                 </div>
+                </div>
             </label>
-            <input type="radio" name="slide" id="c2" >
+            <!-- <input type="radio" name="slide" id="c2" >
             <label for="c2" class="card">
                 <div class="card-content">
                   
@@ -60,7 +65,7 @@
                     </div>
                     
                 </div>
-            </label>
+            </label> -->
         </div>
     </div>
 </body>
