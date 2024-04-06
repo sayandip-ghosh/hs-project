@@ -7,7 +7,7 @@ from firebase_admin import credentials
 from firebase_admin import db
 from firebase_admin import  storage
 
-cred = credentials.Certificate(r'C:\Users\aritr\OneDrive\Desktop\hs-project\serviceAccountKey.json')
+cred = credentials.Certificate(r'serviceAccountKey.json')
 firebase_admin.initialize_app(cred, {
     'databaseURL': "https://faceattendanceas-default-rtdb.firebaseio.com/",
     'storageBucket': "faceattendanceas.appspot.com"
